@@ -10,7 +10,6 @@
 # -> 5
 from random import randint
 
-
 def ok(x, list_x):
     find_ok = 100
     for i in list_x:
@@ -18,7 +17,6 @@ def ok(x, list_x):
             find_ok = x-i
             ok = i
     return ok
-
 
 size = int(input('Введите размер массива: '))
 list_1 = []
