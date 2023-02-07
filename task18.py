@@ -27,5 +27,5 @@ while i < size:
     i += 1
 print(list_1)
 find = int(
-    input('Введите число, чтобы узнать наиболее приближенное: '))
+    input('Введите число: '))
 print(ok(find, list_1))
