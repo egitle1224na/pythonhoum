@@ -17,7 +17,7 @@ while i < size:
     i += 1
 print(list_1)
 find = int(
-    input('Введите число, чтобы узнать сколько раз оно встречается в массиве: '))
+    input('Введите число: '))
 for n in list_1:
     if n == find:
         count += 1
