@@ -22,3 +22,13 @@ for n in list_1:
     if n == find:
         count += 1
 print(count)
+
+# from random import randint
+# N = int(input('Введите натуральное число: '))
+# numbers = []
+# for _ in range(N):
+#     numbers.append(randint(1, N))
+# print(numbers)
+# X = int(input('Введите число X: '))
+# c = numbers.count(X)
+# print(c)
